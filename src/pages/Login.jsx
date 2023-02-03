@@ -5,7 +5,7 @@ let Login = () => {
     <div className="formContainer">
       <div className="formWrapper">
         <span className="logo">LYNA CHAT</span>
-        <span className="title">Login</span>
+        <span className="title">LOGIN</span>
         <form action="">
           <input type="email" name="" id="" placeholder="Email" />
           <input type="password" name="" id="" placeholder="Password" />

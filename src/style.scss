@@ -55,6 +55,8 @@ $darkColor :#2f2d52 ;
                 border: none;
                 width: 250px;
                 border-bottom: 1px solid #a7bcff;
+                outline-color: #7b96ec;
+                color: $darkColor;
 
                 &::placeholder {
                     color: rgb(175, 175, 175);

@@ -14,6 +14,7 @@ function AppRoutes() {
     if (!currentUser) {
       return <Navigate to="/login" />;
     }
+    return children;
   };
 
   return (

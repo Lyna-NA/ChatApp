@@ -8,8 +8,6 @@ let Sidebar = () => {
             <Navbar />
             <Search />
             <Chats />
-            <Chats />
-            <Chats />
         </div>
     );
 }

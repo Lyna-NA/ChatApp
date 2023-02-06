@@ -3,7 +3,7 @@ import Attach from "../images/attach.png";
 import { AuthContext } from "../context/AuthContext";
 import { ChatContext } from "../context/ChatContext";
 import { useContext, useState } from "react";
-import { arrayUnion, doc, serverTimestamp, Timestamp, updateDoc } from "firebase/firestore";
+import { arrayUnion, doc, serverTimestamp, updateDoc } from "firebase/firestore";
 import { db, storage } from "../firebase";
 import { v4 as uuid } from "uuid";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
@@ -32,7 +32,7 @@ let Input = () => {
                 id: uuid(),
                 text,
                 senderId: currentUser.uid,
-                date: Timestamp.now(),
+                date: Date.now(),
                 img: downloadURL,
               }),
             });
@@ -45,7 +45,7 @@ let Input = () => {
           id: uuid(),
           text,
           senderId: currentUser.uid,
-          date: Timestamp.now(),
+          date: Date.now(),
         }),
       });
     }

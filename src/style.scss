@@ -215,6 +215,16 @@ $darkColor :#2f2d52 ;
         .chat {
             flex: 2;
 
+            .startChat{
+                height: 100%;
+                background-color: #ddddf7;                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                color: #5d5b8d4f;
+                font-size: 25px;
+            }
+
             .chatInfo {
                 height: 50px;
                 background-color: #5d5b8d;

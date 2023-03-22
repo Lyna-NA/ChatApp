@@ -1,4 +1,4 @@
-#Chat App using React and Firebase | Realtime Private Chat Application
+# Chat App using React and Firebase | Realtime Private Chat Application
 
 
 ### FB: https://console.firebase.google.com/u/1/project/chatapp-react-and-firebase
